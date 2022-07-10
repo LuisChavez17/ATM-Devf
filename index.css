@@ -1,0 +1,87 @@
+
+
+*¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:blue;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+.divlogin{
+    width: 35rem;
+    height: 45rem;
+    background: rgb(68, 28, 141);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.inputs {
+    width: 60%;
+    margin: 10px;
+    height: 30px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.button {
+    width: 25%;
+    margin: 2rem;
+    height: 25px;
+    border: none;
+    background: rgb(72, 50, 202);
+    color: white;
+    border-radius: 5%;
+}
+
+.divloginOculto {
+    display: none;
+}
+
+.bancaOculta {
+    display: none;
+}
+
+.showBanca {
+    display: block;
+    text-align: center;
+}
+
+p, h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h4 {
+    margin: 0 auto;
+    background-color: olive;
+    width: 90px;
+    color: #000;
+}
+
+.showBanca .button {
+    width: 90px;
+    margin: 20px 5px;
+    height: 25px;
+    border: none;
+    background:rgb(44, 38, 55);
+    color: white;
+    border-radius: 5%;
+    text-transform: uppercase;
+}
+
